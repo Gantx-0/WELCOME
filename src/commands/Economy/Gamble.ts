@@ -23,7 +23,7 @@ export default class Command extends BaseCommand {
     { joined }: IParsedArgs
   ): Promise<void> => {
     /*eslint-disable @typescript-eslint/no-explicit-any*/
-    if (M.from !== "120363041385545796@g.us")
+    if (M.from !== "120363038860358194@g.us")
       return void M.reply(
         `You can't gamble here. Use ${this.client.config.prefix}support to get casino group link.`
       );
@@ -114,7 +114,7 @@ export default class Command extends BaseCommand {
       await M.reply(await sticker.build(), MessageType.sticker, Mimetype.webp);
       const buttonMessage: any = {
         contentText: `📈 You won *${amount} gold*.`,
-        footerText: "©𝖠𝗌𝗎𝗇𝖺 2022",
+        footerText: "©𝖠suna 2022",
         buttons: buttons,
         headerType: 1,
       };
