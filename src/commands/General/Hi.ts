@@ -27,8 +27,8 @@ export default class Command extends BaseCommand {
     ];
 
     const buttonMessage: any = {
-      contentText: `Hello there, Asuna present here👋`,
-      footerText: "© Gantx 2022",
+      contentText: `Ohayou👋`,
+      footerText: "Akatsuki",
       buttons: buttons,
       headerType: 1,
     };
